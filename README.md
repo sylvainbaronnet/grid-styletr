@@ -1,14 +1,14 @@
 
-# [Grid Styled](http://jxnblk.com/grid-styled)
+# Grid Styletr
 
-Responsive React grid system built with [styled-components](https://github.com/styled-components/styled-components)
+Responsive React grid system built with [styletron-react](https://github.com/rtsao/styletron)
 
-[![Build Status](https://travis-ci.org/jxnblk/grid-styled.svg?branch=master)](https://travis-ci.org/jxnblk/grid-styled)
+A crappy fork of [grid-styled](https://github.com/jxnblk/grid-styled)
 
 ## Getting Started
 
 ```sh
-npm i grid-styled
+npm i grid-styletr
 ```
 
 ```jsx
@@ -237,7 +237,9 @@ which helps keep spacing consistent and elements aligned even when nesting compo
 
 ### Related
 
+- [grid-styled](https://github.com/jxnblk/grid-styled)
 - [styled-system](https://github.com/jxnblk/styled-system)
+- [styletron](https://github.com/rtsao/styletron)
 - [styled-components](https://github.com/styled-components/styled-components)
 
 MIT License

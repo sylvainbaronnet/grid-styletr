@@ -1,25 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Box renders 1`] = `
-<div
-  className="sc-bdVaJa cahKXE"
-/>
+Object {
+  "renderedElement": <div
+    className="a b c d e"
+/>,
+  "styles": "<style class=\\"_styletron_hydrate_\\">.a{-moz-box-sizing:border-box}.b{box-sizing:border-box}.c{margin:16px}.d{padding-left:32px}.e{padding-right:32px}</style>",
+}
 `;
 
 exports[`Box renders with props 1`] = `
-<div
-  className="sc-bdVaJa johlaj"
-/>
+Object {
+  "renderedElement": <div
+    className="a b c d e f g h i j"
+/>,
+  "styles": "<style class=\\"_styletron_hydrate_\\">.a{-moz-box-sizing:border-box}.b{box-sizing:border-box}.c{margin:8px}.f{padding-left:8px}.g{padding-right:8px}.h{-webkit-flex:1 1 auto}.i{-ms-flex:1 1 auto}.j{flex:1 1 auto}</style><style class=\\"_styletron_hydrate_\\" media=\\"screen and (min-width: 40em)\\">.d{padding-left:16px}.e{padding-right:16px}</style>",
+}
 `;
 
 exports[`Flex renders 1`] = `
-<div
-  className="sc-htpNat eLQHN sc-bdVaJa iHZvIS"
-/>
+Object {
+  "renderedElement": <div
+    className="a b c d e f g"
+/>,
+  "styles": "<style class=\\"_styletron_hydrate_\\">.a{display:-webkit-box}.b{display:-moz-box}.c{display:-ms-flexbox}.d{display:-webkit-flex}.e{display:flex}.f{-moz-box-sizing:border-box}.g{box-sizing:border-box}</style>",
+}
 `;
 
 exports[`Grid renders 1`] = `
-<div
-  className="sc-bwzfXH fIMJGd sc-bdVaJa iHZvIS"
-/>
+Object {
+  "renderedElement": <div
+    className="a b c d"
+/>,
+  "styles": "<style class=\\"_styletron_hydrate_\\">.a{display:inline-block}.b{vertical-align:top}.c{-moz-box-sizing:border-box}.d{box-sizing:border-box}</style>",
+}
 `;

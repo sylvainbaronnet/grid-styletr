@@ -1,19 +1,19 @@
 {
-  "name": "grid-styled",
-  "version": "2.0.0-4",
-  "description": "Responsive React grid system built with styled-components",
+  "name": "grid-styletr",
+  "version": "0.0.1",
+  "description": "Responsive React grid system built with styletron-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josepot/grid-styletr.git"
+  },
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "babel src -d dist",
-    "test": "ava",
-    "start": "webpack-dev-server",
-    "docs": "webpack -p",
-    "icon-dev": "repng docs/Icon.js --dev",
-    "icon": "repng docs/Icon.js -d 2000 -w 768 -h 768 -o docs -f icon"
+    "test": "ava"
   },
   "keywords": [
     "react",
-    "styled-components",
+    "styletron",
     "grid",
     "flexbox",
     "layout",
@@ -40,11 +40,10 @@
     "react-x-ray": "^1.0.0-1",
     "reline": "^1.0.0-beta.3",
     "repng": "^2.0.0-alpha.1",
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5"
+    "styletron-server": "^2.5.7"
   },
   "dependencies": {
-    "styled-components": "^2.0.1",
+    "styletron-react": "^2.5.8",
     "styled-system": "^1.0.0-2"
   },
   "ava": {
