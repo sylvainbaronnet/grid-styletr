@@ -13,7 +13,7 @@ npm i grid-styletr
 
 ```jsx
 import React from 'react'
-import { Flex, Box } from 'grid-styled'
+import { Flex, Box } from 'grid-styletr'
 
 const App = () => (
   <Flex>
@@ -101,7 +101,7 @@ const App = () => (
 
 ```jsx
 // Display inline-block grid
-import { Grid } from 'grid-styled'
+import { Grid } from 'grid-styletr'
 
 <div>
   <Grid width={1/2}>Half</Grid>
@@ -198,12 +198,12 @@ The Box component uses [styled-system](https://github.com/jxnblk/styled-system) 
 
 ## Theming
 
-Grid Styled uses smart defaults, but to customize the values,
-use styled-components’ `ThemeProvider` component.
+Grid Styletr uses smart defaults, but to customize the values,
+use `ThemeProvider` component.
 
 ```jsx
 import React from 'react'
-import { ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'grid-styletr'
 
 const App = () => (
   <ThemeProvider
@@ -229,7 +229,7 @@ To customize, provide an array of numbers that will be converted to ems.
 
 ### Spacing Scale
 
-Grid Styled components' margin and padding props use a 4 step spacing scale to help
+Grid Styletr components' margin and padding props use a 4 step spacing scale to help
 keep things aligned and keep layouts consistent.
 
 The default scale is based on an 8px/powers-of-two grid: `[ 0, 8, 16, 32, 64 ]`,
