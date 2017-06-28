@@ -35,3 +35,12 @@ Object {
   "styles": "<style class=\\"_styletron_hydrate_\\">.a{display:inline-block}.b{vertical-align:top}.c{-moz-box-sizing:border-box}.d{box-sizing:border-box}</style>",
 }
 `;
+
+exports[`ThemeProvider 1`] = `
+Object {
+  "renderedElement": <div
+    className="a b"
+/>,
+  "styles": "<style class=\\"_styletron_hydrate_\\">.a{-moz-box-sizing:border-box}.b{box-sizing:border-box}</style>",
+}
+`;

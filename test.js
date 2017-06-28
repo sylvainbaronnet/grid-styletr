@@ -6,7 +6,8 @@ import {StyletronProvider} from 'styletron-react';
 import {
   Box,
   Grid,
-  Flex
+  Flex,
+  ThemeProvider
 } from './src'
 import { flex } from './src/Box'
 
@@ -20,6 +21,16 @@ const render = element => {
   const styles = styletron.getStylesheetsHtml();
   return {renderedElement, styles};
 }
+
+// ThemeProvider
+test('ThemeProvider', t => {
+  const tp = render(
+    <ThemeProvider theme={{breakpoints: [1, 2, 3]}}>
+      <Box />
+    </ThemeProvider>
+  )
+  t.snapshot(tp);
+})
 
 
 // Box
