@@ -5,7 +5,8 @@ import styled from './styled'
 const CleanDiv = cleanElement('div');
 
 CleanDiv.propTypes = {
-  ...propTypes.width
+  ...propTypes.width,
+  ...propTypes.wrap,
 }
 
 export const flex = ({flex}) => flex ? {flex} : null
