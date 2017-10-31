@@ -1,16 +1,9 @@
 import React from 'react'
-import { space, width, removeProps, propTypes } from 'styled-system'
+import { space, width } from 'styled-system'
 import styled from './styled'
 
-const CleanDiv = props => {
-  const cleanProps = removeProps(props)
-  return <div {...cleanProps} />
-}
-
-CleanDiv.propTypes = {
-  ...propTypes.width,
-  ...propTypes.wrap,
-}
+// Remove all props except for explicit whitelist
+const CleanDiv = ({ children, className }) => <div className={className}>{children}</div>
 
 export const flex = ({flex}) => flex ? {flex} : null
 
