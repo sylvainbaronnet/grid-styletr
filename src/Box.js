@@ -2,7 +2,7 @@ import React from 'react'
 import { space, width, removeProps, propTypes } from 'styled-system'
 import styled from './styled'
 
-const CleanDiv = cleanElement('div');
+const CleanDiv = removeProps('div');
 
 CleanDiv.propTypes = {
   ...propTypes.width,
